@@ -1,0 +1,12 @@
+[package]
+name = "randon-crate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+smart-contract-verifier = {git = "https://github.com/sevenzing/test-cargo"}
+smart-contract-verifier-server = {git = "https://github.com/sevenzing/test-cargo"}
+sig-provider = {git = "https://github.com/sevenzing/test-cargo"}
+sig-provider-proto = {git = "https://github.com/sevenzing/test-cargo"}
